@@ -1,0 +1,53 @@
+/* 1.0 */
+#icon-options-tux{
+	background: transparent url(../img/tux.jpg) no-repeat scroll 0px 0px;
+}
+#tabs ul {
+	white-space: nowrap;
+	margin-top: 0.6em;
+	margin-left: 0.8em;
+}
+#tabs li {
+	display: inline;
+	list-style-type: none;
+}
+#tabs li a {
+	text-decoration: none;
+	font-size: 11px;
+	padding-right: 0.2em;
+	padding-left: 0.2em;
+}
+#tabs li.ui-tabs-selected a {
+	font-weight: bold;
+	color: #000000;
+}
+td>select {
+	width: 100px;
+}
+input.ubuntu {
+	background-image:url(../img/ubuntu.png);
+	background-repeat:no-repeat;
+	padding-left:38px;
+	background-position:3px center;
+}
+input.centos {
+	background-image:url(../img/centos.jpg);
+	background-repeat:no-repeat;
+	padding-left:38px;
+	background-position:3px center;
+}
+input.linuxMint {
+	background-image:url(../img/linuxMint.jpeg);
+	background-repeat:no-repeat;
+	padding-left:38px;
+	background-position:3px center;
+}
+input.fedora {
+	background-image:url(../img/fedora.png);
+	background-repeat:no-repeat;
+	padding-left:38px;
+	background-position:3px center;
+}
+span#ie6w_crashmode_txt {
+	color: #FF0000;
+}
